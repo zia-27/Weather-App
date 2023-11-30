@@ -1,0 +1,108 @@
+body {
+  background-color: #dbe1ff;
+  font-family: "Play", sans-serif;
+}
+
+.box-element {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 21px 50px rgba(20, 34, 71, 0.171);
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+}
+
+.search-bar {
+  background-color: #dbe1ff98;
+  border: none;
+  border-radius: 11px;
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0 5px 30px 0;
+  padding: 15px 110px 15px 110px;
+  text-align: center;
+}
+
+.search-button {
+  background-color: #1a296b;
+  border: none;
+  border-radius: 11px;
+  color: #fff;
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  transition: 200ms ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #0d1640;
+}
+
+.current-weather {
+  border-top: 2px solid #dbe1ffad;
+  border-bottom: 2px solid #dbe1ffad;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.city-block {
+  padding-left: 45px;
+}
+
+.weather-temp {
+  padding-right: 45px;
+}
+
+h1 {
+  color: #1a296b;
+  font-size: 47px;
+  margin: 0;
+}
+
+.weather-details {
+  color: #040b30;
+}
+
+.strong-fonts {
+  color: #1a296b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.emoji {
+  bottom: 10px;
+  font-size: 38px;
+  position: relative;
+}
+
+.temp {
+  color: #1a296b;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.temp-scale {
+  bottom: 35px;
+  color: #1a296b;
+  font-size: 21px;
+  position: relative;
+}
+
+footer {
+  color: #2721427c;
+  text-align: center;
+}
+
+.footer-fonts {
+  color: #401a6bb7;
+  font-weight: bold;
+  text-decoration: underline;
+}

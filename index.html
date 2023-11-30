@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>My Weather Application</title>
+  </head>
+  <body>
+    <div class="box-element">
+      <header>
+        <form id="input-search">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-bar"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div class="city-block">
+            <h1 id="city-name">Paris</h1>
+            <p class="weather-details">
+              <span id="day-time">'Day&TimeError'</span>, moderate rain <br />
+              Humidity: <span class="strong-fonts">87%</span>, Wind:
+              <span class="strong-fonts">7.2km/h</span>
+            </p>
+          </div>
+          <div class="weather-temp">
+            <span class="emoji">☀️</span>
+            <span class="temp">'CurrentTempError'</span>
+            <span class="temp-scale">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank" class="footer-fonts">Trizia C.</a> and is
+          <a href="#" target="_blank" class="footer-fonts"> on GitHub</a> and
+          <a href="#" target="_blank" class="footer-fonts">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
